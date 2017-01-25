@@ -1,0 +1,74 @@
+*{
+
+	font-family:comic;
+	color: white;
+
+}
+
+header{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: rgba(103, 186, 95, 0.6);
+
+
+}
+
+nav{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #67ba5f;
+
+}
+
+section{
+
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid #8a0202;
+	border-radius: 20px ;
+	background-color: rgb(159, 161, 234);
+
+}
+
+article{
+
+	margin: 25px ;
+	border: 2px solid #8a0202;
+	border-radius: 10px ;
+	background:url(image/background-fond.jpg);
+}
+
+h1{
+	text-align: center;
+
+}
+
+h2{
+	border: 1px solid #8a0202 ;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #9E9E9E ;
+}
+
+img{
+
+	width: 200px;
+	height: 150px;
+}
+
+body{
+
+	background-color:rgb(103, 186, 95);
+}
+
+#INDEX{
+
+	background-color:#710202;
+	flex: 1;
+}
